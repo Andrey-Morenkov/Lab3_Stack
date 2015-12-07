@@ -1,0 +1,30 @@
+﻿Построение начато 06.12.2015 0:22:24.
+     1>Проект "C:\Users\Hryasch\Documents\GitHub\Stack\Stack test\Stack test.vcxproj" в узле 3 (целевые объекты rebuild).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\Run Tests.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt test_main.cpp test_core.cpp
+         test_core.cpp
+     1>c:\users\hryasch\documents\github\stack\tstack+tparcer\tstack.h(22): error C2059: синтаксическая ошибка: =
+                 c:\users\hryasch\documents\github\stack\tstack+tparcer\tstack.h(20): при компиляции функции-члена "TStack<T>::TStack(int)" класса шаблон
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\hryasch\documents\github\stack\stack test\test_core.cpp(7): см. ссылку на создание экземпляров класса шаблон при компиляции "TStack<T>"
+                 with
+                 [
+                     T=int
+                 ]
+     1>c:\users\hryasch\documents\github\stack\tstack+tparcer\tstack.h(22): error C2143: синтаксическая ошибка: отсутствие ")" перед ";"
+     1>c:\users\hryasch\documents\github\stack\tstack+tparcer\tstack.h(22): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
+     1>c:\users\hryasch\documents\github\stack\tstack+tparcer\tstack.h(22): error C2059: синтаксическая ошибка: )
+     1>c:\users\hryasch\documents\github\stack\tstack+tparcer\tstack.h(24): error C2181: недопустимый else без парного if
+     1>c:\users\hryasch\documents\github\stack\tstack+tparcer\tstack.h(30): fatal error C1903: не удается восстановить после предыдущих ошибок; остановка компиляции
+         test_main.cpp
+         Создание кода...
+     1>Построение проекта "C:\Users\Hryasch\Documents\GitHub\Stack\Stack test\Stack test.vcxproj" завершено (целевые объекты rebuild) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:01.35

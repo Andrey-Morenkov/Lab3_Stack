@@ -1,0 +1,18 @@
+﻿Построение начато 08.12.2015 1:08:08.
+     1>Проект "C:\Users\Hryasch\Documents\GitHub\Lab3_Stack\Tests\Tests.vcxproj" в узле 3 (целевые объекты rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\Tests.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Обращение к "Debug\Tests.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Tests.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt test_core.cpp test_main.cpp
+         test_main.cpp
+     1>c:\users\hryasch\documents\github\lab3_stack\tests\test_main.cpp(8): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "StdAfx.h"" в источник.
+         test_core.cpp
+     1>c:\users\hryasch\documents\github\lab3_stack\tests\test_core.cpp(9): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "StdAfx.h"" в источник.
+         Создание кода...
+     1>Построение проекта "C:\Users\Hryasch\Documents\GitHub\Lab3_Stack\Tests\Tests.vcxproj" завершено (целевые объекты rebuild) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:00.08

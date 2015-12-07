@@ -1,7 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab3_Stack", "Lab3_Stack\Lab3_Stack.vcxproj", "{130387B5-2C29-4521-9285-D0D231089B93}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Core", "Lab3_Stack\Lab3_Stack.vcxproj", "{130387B5-2C29-4521-9285-D0D231089B93}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gtest", "gtest\gtest.vcxproj", "{22DE3113-9E61-4C7D-B976-9A6287C94761}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tests", "Tests\Tests.vcxproj", "{2359FB92-9F76-45C8-A22A-6E271D74A5D1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{22DE3113-9E61-4C7D-B976-9A6287C94761} = {22DE3113-9E61-4C7D-B976-9A6287C94761}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +20,14 @@ Global
 		{130387B5-2C29-4521-9285-D0D231089B93}.Debug|Win32.Build.0 = Debug|Win32
 		{130387B5-2C29-4521-9285-D0D231089B93}.Release|Win32.ActiveCfg = Release|Win32
 		{130387B5-2C29-4521-9285-D0D231089B93}.Release|Win32.Build.0 = Release|Win32
+		{22DE3113-9E61-4C7D-B976-9A6287C94761}.Debug|Win32.ActiveCfg = Debug|Win32
+		{22DE3113-9E61-4C7D-B976-9A6287C94761}.Debug|Win32.Build.0 = Debug|Win32
+		{22DE3113-9E61-4C7D-B976-9A6287C94761}.Release|Win32.ActiveCfg = Release|Win32
+		{22DE3113-9E61-4C7D-B976-9A6287C94761}.Release|Win32.Build.0 = Release|Win32
+		{2359FB92-9F76-45C8-A22A-6E271D74A5D1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2359FB92-9F76-45C8-A22A-6E271D74A5D1}.Debug|Win32.Build.0 = Debug|Win32
+		{2359FB92-9F76-45C8-A22A-6E271D74A5D1}.Release|Win32.ActiveCfg = Release|Win32
+		{2359FB92-9F76-45C8-A22A-6E271D74A5D1}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
