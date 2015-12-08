@@ -5,9 +5,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Core", "Lab3_Stack\Lab3_Sta
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gtest", "gtest\gtest.vcxproj", "{22DE3113-9E61-4C7D-B976-9A6287C94761}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tests", "Tests\Tests.vcxproj", "{2359FB92-9F76-45C8-A22A-6E271D74A5D1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "run_test", "run_test\run_test.vcxproj", "{C4D0C287-EDD2-4F98-B25D-60EAD6F51C39}"
 	ProjectSection(ProjectDependencies) = postProject
 		{22DE3113-9E61-4C7D-B976-9A6287C94761} = {22DE3113-9E61-4C7D-B976-9A6287C94761}
+		{130387B5-2C29-4521-9285-D0D231089B93} = {130387B5-2C29-4521-9285-D0D231089B93}
 	EndProjectSection
 EndProject
 Global
@@ -24,10 +25,10 @@ Global
 		{22DE3113-9E61-4C7D-B976-9A6287C94761}.Debug|Win32.Build.0 = Debug|Win32
 		{22DE3113-9E61-4C7D-B976-9A6287C94761}.Release|Win32.ActiveCfg = Release|Win32
 		{22DE3113-9E61-4C7D-B976-9A6287C94761}.Release|Win32.Build.0 = Release|Win32
-		{2359FB92-9F76-45C8-A22A-6E271D74A5D1}.Debug|Win32.ActiveCfg = Debug|Win32
-		{2359FB92-9F76-45C8-A22A-6E271D74A5D1}.Debug|Win32.Build.0 = Debug|Win32
-		{2359FB92-9F76-45C8-A22A-6E271D74A5D1}.Release|Win32.ActiveCfg = Release|Win32
-		{2359FB92-9F76-45C8-A22A-6E271D74A5D1}.Release|Win32.Build.0 = Release|Win32
+		{C4D0C287-EDD2-4F98-B25D-60EAD6F51C39}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C4D0C287-EDD2-4F98-B25D-60EAD6F51C39}.Debug|Win32.Build.0 = Debug|Win32
+		{C4D0C287-EDD2-4F98-B25D-60EAD6F51C39}.Release|Win32.ActiveCfg = Release|Win32
+		{C4D0C287-EDD2-4F98-B25D-60EAD6F51C39}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

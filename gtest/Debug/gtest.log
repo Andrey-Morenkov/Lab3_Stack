@@ -1,20 +1,20 @@
-﻿Построение начато 08.12.2015 1:08:06.
-     1>Проект "C:\Users\Hryasch\Documents\GitHub\Lab3_Stack\gtest\gtest.vcxproj" в узле 2 (целевые объекты rebuild).
+﻿Build started 12/8/2015 9:09:21 AM.
+     1>Project "C:\Users\morenkov.a\Documents\GitHub\Lab3_Stack\gtest\gtest.vcxproj" on node 2 (rebuild target(s)).
      1>_PrepareForClean:
-         Файл "Debug\gtest.lastbuildstate" удаляется.
+         Deleting file "Debug\gtest.lastbuildstate".
        InitializeBuildStatus:
-         Создание "Debug\gtest.unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Creating "Debug\gtest.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "gtest-all.cc"
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "gtest-all.cc"
          gtest-all.cc
        Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Hryasch\Documents\GitHub\Lab3_Stack\Debug\gtest.lib" /NOLOGO "Debug\gtest-all.obj"
-         gtest.vcxproj -> C:\Users\Hryasch\Documents\GitHub\Lab3_Stack\Debug\gtest.lib
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\morenkov.a\Documents\GitHub\Lab3_Stack\Debug\gtest.lib" /NOLOGO "Debug\gtest-all.obj"
+         gtest.vcxproj -> C:\Users\morenkov.a\Documents\GitHub\Lab3_Stack\Debug\gtest.lib
        FinalizeBuildStatus:
-         Файл "Debug\gtest.unsuccessfulbuild" удаляется.
-         Обращение к "Debug\gtest.lastbuildstate".
-     1>Построение проекта "C:\Users\Hryasch\Documents\GitHub\Lab3_Stack\gtest\gtest.vcxproj" завершено (целевые объекты rebuild).
+         Deleting file "Debug\gtest.unsuccessfulbuild".
+         Touching "Debug\gtest.lastbuildstate".
+     1>Done Building Project "C:\Users\morenkov.a\Documents\GitHub\Lab3_Stack\gtest\gtest.vcxproj" (rebuild target(s)).
 
-Построение успешно завершено.
+Build succeeded.
 
-Затраченное время: 00:00:01.93
+Time Elapsed 00:00:02.50
